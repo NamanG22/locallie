@@ -30,7 +30,7 @@ export const HowItWorks = () => {
                 <p className="text-gray-600">Start receiving orders and grow your business</p>
               </li>
             </ol>
-            <Button className="mt-4 border-2 text-center bg-[#000957] hover:bg-[#e6ecf0] hover:text-black hover:border-[#000957] hover:border-2">
+            <Button variant="outline" className="mt-4 text-center bg-[#000957] hover:bg-[#e6ecf0] hover:text-black hover:border-[#000957]">
               Register Now
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
@@ -51,7 +51,7 @@ export const HowItWorks = () => {
                 <p className="text-gray-600">Place orders and enjoy quick delivery</p>
               </li>
             </ol>
-            <Button className="mt-4 border-2 text-center bg-[#000957] hover:bg-[#e6ecf0] hover:text-black hover:border-[#000957] hover:border-2">
+            <Button variant="outline" className="mt-4 text-center bg-[#000957] hover:bg-[#e6ecf0] hover:text-black hover:border-[#000957]">
               Start Shopping
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>

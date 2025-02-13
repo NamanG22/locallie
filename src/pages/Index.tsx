@@ -7,7 +7,7 @@ import { NavBar } from '../components/NavBar';
 const Index = () => {
   return (
     <div className="min-h-screen bg-red-50">
-      <NavBar/>
+      {/* <NavBar/> */}
       <Hero />
       <Features />
       <HowItWorks />
