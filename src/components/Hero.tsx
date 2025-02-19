@@ -5,10 +5,8 @@ import { Button } from "@/components/ui/button";
 export const Hero = () => {
   return (
     <div className="relative overflow-hidden h-screen flex items-center justify-center">
-      {/* Background Animation */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#000957] to-[#074799]"></div>
 
-      {/* Content */}
       <div className="relative z-10 text-center text-white px-6">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
